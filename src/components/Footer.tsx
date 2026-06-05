@@ -31,11 +31,6 @@ export const Footer: React.FC = () => {
       href: developerProfile.socialLinks.email,
       label: "Send Email",
     },
-    {
-      icon: <Twitter className="w-5 h-5" />,
-      href: developerProfile.socialLinks.twitter || "#",
-      label: "Twitter Profile",
-    },
   ];
 
   return (

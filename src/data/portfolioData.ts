@@ -70,6 +70,7 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "JavaScript" },
       { name: "Python" },
+      { name: "MATLAB" },
     ],
   },
   {
@@ -80,6 +81,12 @@ export const skillCategories: SkillCategory[] = [
       { name: "Flask" },
       { name: "Tailwind CSS" },
       { name: "Flutter" },
+      { name: "HTML5" },
+      { name: "CSS" },
+      { name: "TypeScript" },
+      { name: "Firebase" },
+      { name: "Node js" },
+
     ],
   },
   {
@@ -88,7 +95,6 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Git & GitHub" },
       { name: "Figma" },
-      { name: "VS Code" },
     ],
   },
 ];
@@ -112,6 +118,7 @@ export const projectsData: Project[] = [
     longDescription: "Full-stack quiz platform with a React + Vite client and an Express + Socket.io server enabling live multiplayer rooms. Uses Google Generative AI to auto-generate questions from PDF and DOCX course material (parsed with pdf-parse and mammoth). Deployed via Vercel (client) and Render (server).",
     tags: ["React", "Vite", "Socket.io", "Express", "Google Generative AI"],
     githubUrl: "https://github.com/mrazindo12/QUIZ_GAME_APP",
+    liveUrl: "https://ceng-woad.vercel.app/",
     category: "AI & ML",
     featured: true,
   },
