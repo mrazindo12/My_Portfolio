@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv \"c:/Users/HP/Desktop/portfolio/src/Abdul Razak Azindo.pdf\" \"c:/Users/HP/Desktop/portfolio/public/resume.pdf\" && ls -la \"c:/Users/HP/Desktop/portfolio/public/\")",
+      "Bash(npx next *)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\HP\\Desktop\\portfolio\\src"
+    ]
+  }
+}
