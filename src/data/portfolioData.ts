@@ -129,7 +129,7 @@ export const projectsData: Project[] = [
     longDescription: "Created a modern portfolio using Next.js (App Router), Framer Motion, and Tailwind CSS. Implemented sleek interactions, translucent blurring, custom responsive layouts, and automatic theme transitions.",
     tags: ["Next.js", "React", "Framer Motion", "Tailwind CSS", "TypeScript"],
     githubUrl: "https://github.com/mrazindo12/premium-portfolio",
-    liveUrl: "https://azindo.razak.dev",
+    liveUrl: "https://my-portfolio-eosin-sigma-rpio6y9sae.vercel.app/",
     category: "Web & Mobile",
     featured: false,
   },
