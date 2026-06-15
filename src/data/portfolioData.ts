@@ -107,6 +107,7 @@ export const projectsData: Project[] = [
     longDescription: "Supports multi-format file uploads (.pdf, .pptx, .docx, .txt) and parses them for speech synthesis. Features three modes: direct verbatim reading, AI Lecture (LLM-summarized conversational presentation), and AI Podcast (multi-voice conversational scripting with distinct Host, Expert, and Student neural voices). Built with a React 19 + Vite frontend, a FastAPI backend, Edge-TTS for high-fidelity audio synthesis, and OpenRouter API for intelligent model fallback. Includes local conversion history, auto-scrolling transcript highlighting, and progressive web app (PWA) installation.",
     tags: ["React", "FastAPI", "Edge-TTS", "OpenRouter AI", "PWA", "Python"],
     githubUrl: "https://github.com/mrazindo12/Slides2Audio",
+    liveUrl: "https://slides2audio-1.onrender.com/",
     category: "AI & ML",
     featured: true,
   },
