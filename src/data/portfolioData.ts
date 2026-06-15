@@ -101,6 +101,16 @@ export const skillCategories: SkillCategory[] = [
 
 export const projectsData: Project[] = [
   {
+    id: "slide2audio",
+    title: "Slide2Audio",
+    description: "A full-stack AI-powered document-to-speech converter that transforms PDFs, slides, and docs into natural-sounding audio lectures and podcasts.",
+    longDescription: "Supports multi-format file uploads (.pdf, .pptx, .docx, .txt) and parses them for speech synthesis. Features three modes: direct verbatim reading, AI Lecture (LLM-summarized conversational presentation), and AI Podcast (multi-voice conversational scripting with distinct Host, Expert, and Student neural voices). Built with a React 19 + Vite frontend, a FastAPI backend, Edge-TTS for high-fidelity audio synthesis, and OpenRouter API for intelligent model fallback. Includes local conversion history, auto-scrolling transcript highlighting, and progressive web app (PWA) installation.",
+    tags: ["React", "FastAPI", "Edge-TTS", "OpenRouter AI", "PWA", "Python"],
+    githubUrl: "https://github.com/mrazindo12/Slides2Audio",
+    category: "AI & ML",
+    featured: true,
+  },
+  {
     id: "cwa-calculator",
     title: "KNUST CWA Predictor",
     description: "A Next.js-based CWA predictor for KNUST students featuring real-time calculations, scenario simulation, and a responsive UI.",
@@ -113,8 +123,8 @@ export const projectsData: Project[] = [
   },
   {
     id: "quiz-game-app",
-    title: "CENG Quiz Game",
-    description: "A real-time multiplayer quiz game built for CENG exam preparation, with AI-generated questions from uploaded course materials.",
+    title: "QUIZ Game",
+    description: "A real-time multiplayer quiz game built for  exam preparation, with AI-generated questions from uploaded course materials.",
     longDescription: "Full-stack quiz platform with a React + Vite client and an Express + Socket.io server enabling live multiplayer rooms. Uses Google Generative AI to auto-generate questions from PDF and DOCX course material (parsed with pdf-parse and mammoth). Deployed via Vercel (client) and Render (server).",
     tags: ["React", "Vite", "Socket.io", "Express", "Google Generative AI"],
     githubUrl: "https://github.com/mrazindo12/QUIZ_GAME_APP",

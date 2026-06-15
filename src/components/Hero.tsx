@@ -63,14 +63,7 @@ export const Hero: React.FC = () => {
       <div className="absolute top-[20%] left-[10%] w-[350px] h-[350px] bg-indigo-500/10 dark:bg-indigo-500/10 rounded-full blur-[80px] pointer-events-none" />
       <div className="absolute bottom-[10%] right-[10%] w-[400px] h-[400px] bg-blue-500/10 dark:bg-blue-500/5 rounded-full blur-[100px] pointer-events-none" />
 
-      {/* Floating lines decor */}
-      <div className="absolute left-6 md:left-12 top-1/2 -translate-y-1/2 flex flex-col items-center gap-4 pointer-events-none select-none">
-        <span className="h-24 w-[1px] bg-gradient-to-b from-transparent to-neutral-300 dark:to-neutral-800" />
-        <span className="text-[10px] tracking-[0.2em] font-medium text-neutral-400 uppercase rotate-90 my-8 whitespace-nowrap">
-          Accra, Ghana
-        </span>
-        <span className="h-24 w-[1px] bg-gradient-to-t from-transparent to-neutral-300 dark:to-neutral-800" />
-      </div>
+
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 md:px-12 text-center flex flex-col items-center justify-center">
         <motion.div
