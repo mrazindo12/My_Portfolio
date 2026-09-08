@@ -51,9 +51,9 @@ export interface DeveloperProfile {
 export const developerProfile: DeveloperProfile = {
   name: "Azindo Abdul Razak",
   role: "Software Engineer & AI Developer",
-  focus: "Engineering solutions at the intersection of AI and real-world problems",
+  focus: "Engineering solutions at the intersection of AI, full-stack systems, and cybersecurity",
   location: "Accra, Ghana (Open to Remote)",
-  bio: "I am a Telecommunication Engineering student and Software Engineer with a strong passion for building intelligent systems and scalable applications.\n\nMy interests lie in AI development, web applications, and solving real-world problems using technology. I enjoy turning complex ideas into simple, functional, and user-friendly solutions.\n\nCurrently, I am focused on improving my skills in AI engineering, backend systems, and modern web technologies while working on projects that combine automation, intelligence, and usability.",
+  bio: "I am a Telecommunication Engineering student and Software Engineer focused on AI development, full-stack applications, and practical technology solutions.\n\nMy work spans AI software engineering, full-stack web applications, and cybersecurity learning. I enjoy turning complex ideas into functional, reliable, and user-friendly solutions.\n\nCurrently, I am focused on building intelligent systems, modern web platforms, and exploring practical technology solutions across software and security domains.",
   cvUrl: "/resume.pdf",
   socialLinks: {
     github: "https://github.com/mrazindo12",
@@ -78,15 +78,18 @@ export const skillCategories: SkillCategory[] = [
     title: "Frameworks & Technologies",
     skills: [
       { name: "Next.js" },
+      { name: "React" },
+      { name: "FastAPI" },
       { name: "Flask" },
+      { name: "Express.js" },
+      { name: "Socket.io" },
       { name: "Tailwind CSS" },
       { name: "Flutter" },
       { name: "HTML5" },
       { name: "CSS" },
       { name: "TypeScript" },
       { name: "Firebase" },
-      { name: "Node js" },
-
+      { name: "Node.js" },
     ],
   },
   {
@@ -94,12 +97,28 @@ export const skillCategories: SkillCategory[] = [
     title: "Tools & Platforms",
     skills: [
       { name: "Git & GitHub" },
+      { name: "Vite" },
+      { name: "PWA" },
+      { name: "REST APIs" },
+      { name: "OpenRouter" },
+      { name: "Microsoft Edge TTS" },
       { name: "Figma" },
     ],
   },
 ];
 
 export const projectsData: Project[] = [
+  {
+    id: "maths-hub-online",
+    title: "Maths Hub Online",
+    description: "A full-stack online mathematics tutoring platform connecting students with tutors and providing curriculum-focused learning resources.",
+    longDescription: "A production web platform built for an online mathematics tutoring service. The platform includes tutor discovery, curriculum-focused learning resources, user accounts, session booking, and online payment workflows. It also provides educational resources such as study guides, past questions, video tutorials, and reference materials.",
+    tags: ["React", "Vite", "Node.js", "JavaScript", "REST APIs"],
+    githubUrl: "https://github.com/mrazindo12/mathshubon",
+    liveUrl: "https://www.mathshubon.com/",
+    category: "Web & Mobile",
+    featured: true,
+  },
   {
     id: "slide2audio",
     title: "Slide2Audio",
@@ -148,6 +167,30 @@ export const projectsData: Project[] = [
 
 export const journeyTimeline: TimelineEvent[] = [
   {
+    id: "virtual-infosec-africa",
+    year: "Sep 2026 - Present",
+    title: "Cybersecurity Intern / Trainee",
+    subtitle: "Virtual Infosec Africa / Kumasi, Ghana",
+    description: "Undergoing practical cybersecurity training focused on security concepts, tools, and hands-on technical skills.",
+    category: "experience",
+  },
+  {
+    id: "cortexx-intern",
+    year: "2026",
+    title: "Software Engineering Intern @Cortexx",
+    subtitle: "Cortexx Community / Accra",
+    description: "Contributed to software engineering and AI-focused projects while gaining hands-on development experience.",
+    category: "experience",
+  },
+  {
+    id: "healthpass-hackathon",
+    year: "2026",
+    title: "HealthPass — Hackathon Developer",
+    subtitle: "Claude Code Builders Club, KNUST",
+    description: "Collaborated with a team to develop a healthcare system designed to improve access to patient records across healthcare facilities.",
+    category: "project",
+  },
+  {
     id: "telecom-degree",
     year: "2025 - Present",
     title: "B.Sc. Telecommunication Engineering",
@@ -156,13 +199,19 @@ export const journeyTimeline: TimelineEvent[] = [
     category: "education",
   },
   {
-    id: "ai-engineer-intern",
-    year: "2026",
-    title: "Software & AI Engineering Intern @Cortexx",
-    subtitle: "Tech Solutions Hub / Accra",
-    description: "Collaborated on web platform engineering, developed clean Next.js dashboard UI panels, and built apps to solve real world problems",
+    id: "telecom-committee",
+    year: "2025/2026",
+    title: "Organizing Committee Member",
+    subtitle: "Telecommunication Engineering Department, KNUST",
+    description: "Supported the planning and coordination of departmental activities and student initiatives.",
     category: "experience",
   },
-
-
+  {
+    id: "iefi-it-head",
+    year: "2024",
+    title: "Head of IT Department",
+    subtitle: "Islamic Enlightenment Foundation International / Accra",
+    description: "Led technical operations, managed digital systems, and supported IT initiatives.",
+    category: "experience",
+  },
 ];
